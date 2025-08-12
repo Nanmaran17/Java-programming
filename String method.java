@@ -81,3 +81,34 @@ class Main {
         
     }
 }
+
+//
+
+import java.util.Scanner;
+
+public class main
+{
+	public static void main(String[] args) {
+	    Char[] data = {'0','1','2','3','4','5','6','7','8','9'};
+	    
+		System.out.println(data);
+		String mystring = "Maran";
+		mystring.getChar(0,3 , data, 0);
+		System.out.println(data);
+		
+	}
+}
+
+//getBytes
+
+import java.util.Scanner;
+
+public class main
+{
+	public static void main(String[] args) {
+	    String name = "Maran";
+	    byte [] a = name.getBytes();
+	    System.out.println(a[3 ]);
+		
+	}
+}
